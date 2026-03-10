@@ -1,68 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/flexbox_layout.css" rel="stylesheet" type="text/css"/>
     <title>Flexbox layout</title>
 
     <style>
-
-        body {
-            background-color: gainsboro;
-            
-            /*tmp*/
+        /*tmp*/
+        body,
+        header,
+        main,
+        footer,
+        nav,
+        article,
+        aside {
             border-style: solid;
             border-color: aqua;
         }
-
-        header {
-            background-color: grey;
-
-            /*tmp*/
-            border-style: solid;
-            border-color: aqua;
-        }
-
-        footer {
-            background-color: darkgrey;
-
-            /*tmp*/
-            border-style: solid;
-            border-color: aqua;
-        }
-
     </style>
 </head>
 
 <body>
 
-    <!--header-->
-    <header>
-        header
-    </header>
-    <!--end header-->
+<!--header-->
+<header>
+    header
+</header>
+<!--end header-->
 
-    <!--main-->
-    <main>
-        <!--navigation menu-->
-        <nav>
-            nav
-        </nav>
-        <!--end navigation menu-->
+<!--main-->
+<main>
+    <!--main content-->
+    <article>
+        article
+    </article>
+    <!--end main content -->
 
-        <!--content-->
-        <article>
-            article
-        </article>
-        <!--end content -->
-    </main>
-    <!--end main-->
+    <!--navigation menu-->
+    <nav>
+        navigation
+    </nav>
+    <!--end navigation menu-->
 
-    <!--footer-->
-    <footer>
-        footer
-    </footer>
-    <!--end footer-->
+    <!--
+    <aside>
+        <p>sidebar</p>
+    </aside>
+    -->
+</main>
+<!--end main-->
+
+<!--footer-->
+<footer>
+    footer
+</footer>
+<!--end footer-->
 
 </body>
+
 </html>
