@@ -1,0 +1,14 @@
+body,
+header,
+main,
+footer,
+nav,
+article,
+aside {
+    border-style: solid;
+    border-color: aqua;
+}
+
+body {
+    background-color: coral;
+}

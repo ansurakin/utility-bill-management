@@ -1,4 +1,8 @@
+/* применяем стили ко всем элементам на html-странице */
 * {
+    /* Свойства width или height включают в себя значения полей(padding) и границ, но не отступов (margin). 
+    Например для border-box, чтобы div был фиксированной ширины при любых значениях padding и border,
+    width = L_content + L_padding + L_border */
     box-sizing: border-box;
 }
 
@@ -11,7 +15,7 @@ body {
 
 body {
     background-color: gainsboro;
-    font-size: 1.1em;
+    font-size: 1em;
     padding: 1em;
     display: flex;
     flex-direction: column;
@@ -23,14 +27,13 @@ main {
 }
 
 article {
-    background-color: #546e7a;
     flex: 2 2 12em;
     padding: 1em;
 }
 
 nav, aside {
     flex: 1;
-    background-color: #455a64;
+    background-color: lightgrey;
 }
 
 nav {
@@ -39,7 +42,7 @@ nav {
 
 header, footer {
     flex: 0 0 5em;
-    background-color: #37474f;
+    background-color: silver;
 }
 
 @media screen and (min-width: 600px) {
